@@ -1,0 +1,14 @@
+[{
+    "title": "Convert number to text (T9 predictive text)",
+    "url": "/api/v1/convertNumberToText",
+    "method": "GET",
+    "url_params": {
+        "num": "numberic value [0-9]"
+    },
+    "success_response": {
+        "status": 200,
+        "response": [
+            { "word": "string value" }
+        ]
+    }
+}]
