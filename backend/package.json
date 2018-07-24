@@ -1,15 +1,18 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server"
-  },
-  "author": "zeljko bilandzija",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Task for Kiwi.com",
+    "main": "index.js",
+    "engines": {
+        "node": "10.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/server"
+    },
+    "author": "Zeljko Bilandzija",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
 }
