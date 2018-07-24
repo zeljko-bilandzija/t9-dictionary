@@ -3,6 +3,10 @@
 }
 
 .emulator-container textarea {
-    width: 100%;
     resize: none;
+    margin: 10px 32px;
+}
+
+.btn-row {
+    margin: 10px 0;
 }

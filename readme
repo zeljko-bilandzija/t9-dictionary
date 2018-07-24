@@ -1,0 +1,37 @@
+*** T9 predictive word converter Task ***
+
+*** REQUIREMENTS & INSTALLATION ***
+
+This task has following requirements that has to be installed on machine:
+  - NodeJS v.10.0.0
+
+*** Backend part ***
+
+I assumed that dictionary will be static file which lives in root directory of server.
+I used config.json which wouldn't be part of github project in production,
+and here is serve just as example for configuring certain app properties.
+Also, I used routes.json, which is not needed, but this is simple way for 
+documenting available routes for API users.
+For installation all required modules you need to go to folder 'backend', 
+open command promt/terminal and run "npm install" command.
+For run project you need to run command "npm run start" for Node or "npm run start-watch" for Nodemon.
+For test project you need to run command "npm run test" or "npm run test-watch".
+Backend project has been written from scratch. 
+
+*** Frontend part ***
+
+For installation all required modules you need to go to folder 'frontend', 
+open command promt/terminal and run "npm install" command.
+For run project you need to run command "npm start".
+Sample projects fetch words from backend and show first one, 
+and with cycle button you can cycle founded words.
+Frontend project has been written with create-react-app tool.
+
+*** Other ***
+
+I hope that this sample project will be good enough, and I am sure 
+that some of requirements like ones in this sample project, you are working on different 
+and much better way, but I would be happy to see, learn and use better approaches.
+
+Thanks
+Zeljko Bilandzija
