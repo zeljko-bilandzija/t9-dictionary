@@ -1,0 +1,8 @@
+.emulator-container {
+    border: 1px solid gray;
+}
+
+.emulator-container textarea {
+    width: 100%;
+    resize: none;
+}

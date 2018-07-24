@@ -1,11 +1,11 @@
 {
     "development": {
-        "PORT": 3000
+        "PORT": 4000
     },
     "test": {
-        "PORT": 3000
+        "PORT": 4000
     },
     "production": {
-        "PORT": 3000
+        "PORT": 4000
     }
 }
