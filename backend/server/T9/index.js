@@ -5,7 +5,7 @@ class T9 {
     constructor() {
         this.dictionary = '';
         this.dictionaryTree = {};
-        this.words = this.initializeDictionary();
+        this.words = [];
         this.keyMap = this.createKeyMap();
     }
 

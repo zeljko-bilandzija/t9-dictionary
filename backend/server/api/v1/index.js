@@ -1,11 +1,9 @@
 const router = require('express').Router();
-const T9 = require('../../T9');
 
-// initializing t9 dictionary
-const t9 = new T9();
-
-router.get('/api/v1/convertNumberToText/:num([0-9]+)', (req, res) => {
-    const result = t9.predict(req.params.num);
+router.get('/api/v1/convertNumberToText/:num([0-9]+)', async(req, res) => {
+    // Loading t9Instance from app prop
+    const t9Instance = req.app.get('t9Instance');
+    const result = await t9Instance.predict(req.params.num);
     res.status(200).send(result);
 });
 
